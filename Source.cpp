@@ -1,7 +1,6 @@
 #include<iostream>
 #include<string.h>
 #include<string>
-//#include<boost/algorithm/string.hpp>
 using namespace std;
 class CustomString
 {
@@ -18,7 +17,6 @@ public:
 	}
 	CustomString(const CustomString& cc)
 	{
-		//myString = cc.myString;
 		myString = cc.myString;
 	}
 	void setCustomString(char* ptr)
@@ -125,15 +123,3 @@ int main()
 	cout << str.isEqualTo(str1);
 	return 0;
 }
-	//string s = "     ALi is a good boy     ";
-	///*string s1;
-	//s1.assign(s);
-	//cout << s1;*/
-	//cout << s << endl;
-	//cout << s.size() << endl;
-	//rtrim(s, ' ');
-	//cout << s << endl;
-	//cout << s.size() << endl;
-	//ltrim(s, ' ');
-	//cout << s << endl;
-	//cout << s.size() << endl;
